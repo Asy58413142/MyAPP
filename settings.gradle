@@ -1,0 +1,2 @@
+include ':day727_事件分发及listview滑动事件冲突解决', ':day727_viewpager嵌套viewpager的滑动', ':day728_事件分发手势识别', ':day729_animation动画', ':day729_animator', ':day802_添加到购物车的动画', ':day803_图片多选选择器', ':day805_抽屉布局总结', ':SlidingMenuLibrary', ':day809_module', ':day811_沉浸式', ':day813_retrofit', ':mywebview'
+project(':SlidingMenuLibrary').projectDir = new File('library')

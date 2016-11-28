@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="60dp"
+              android:orientation="vertical">
+
+    <RadioGroup
+            android:id="@+id/gp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+        <RadioButton
+                android:id="@+id/home"
+                style="@style/BottomMenu"
+                android:checked="true"
+                android:text="home"
+                />
+
+        <RadioButton
+                android:id="@+id/zone"
+                style="@style/BottomMenu"
+                android:text="zone"
+                />
+
+        <RadioButton
+                android:id="@+id/mine"
+                style="@style/BottomMenu"
+                android:text="mine"
+                />
+
+    </RadioGroup>
+</LinearLayout>

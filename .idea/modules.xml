@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/MyApp.iml" filepath="$PROJECT_DIR$/MyApp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/library/SlidingMenuLibrary.iml" filepath="$PROJECT_DIR$/library/SlidingMenuLibrary.iml" />
+      <module fileurl="file://$PROJECT_DIR$/day727_viewpager嵌套viewpager的滑动/day727_viewpager嵌套viewpager的滑动.iml" filepath="$PROJECT_DIR$/day727_viewpager嵌套viewpager的滑动/day727_viewpager嵌套viewpager的滑动.iml" />
+      <module fileurl="file://$PROJECT_DIR$/day727_事件分发及listview滑动事件冲突解决/day727_事件分发及listview滑动事件冲突解决.iml" filepath="$PROJECT_DIR$/day727_事件分发及listview滑动事件冲突解决/day727_事件分发及listview滑动事件冲突解决.iml" />
+      <module fileurl="file://$PROJECT_DIR$/day728_事件分发手势识别/day728_事件分发手势识别.iml" filepath="$PROJECT_DIR$/day728_事件分发手势识别/day728_事件分发手势识别.iml" />
+      <module fileurl="file://$PROJECT_DIR$/day729_animation动画/day729_animation动画.iml" filepath="$PROJECT_DIR$/day729_animation动画/day729_animation动画.iml" />
+      <module fileurl="file://$PROJECT_DIR$/day729_animator/day729_animator.iml" filepath="$PROJECT_DIR$/day729_animator/day729_animator.iml" />
+      <module fileurl="file://$PROJECT_DIR$/day802_添加到购物车的动画/day802_添加到购物车的动画.iml" filepath="$PROJECT_DIR$/day802_添加到购物车的动画/day802_添加到购物车的动画.iml" />
+      <module fileurl="file://$PROJECT_DIR$/day803_图片多选选择器/day803_图片多选选择器.iml" filepath="$PROJECT_DIR$/day803_图片多选选择器/day803_图片多选选择器.iml" />
+      <module fileurl="file://$PROJECT_DIR$/day805_抽屉布局总结/day805_抽屉布局总结.iml" filepath="$PROJECT_DIR$/day805_抽屉布局总结/day805_抽屉布局总结.iml" />
+      <module fileurl="file://$PROJECT_DIR$/day809_module/day809_module.iml" filepath="$PROJECT_DIR$/day809_module/day809_module.iml" />
+      <module fileurl="file://$PROJECT_DIR$/day811_沉浸式/day811_沉浸式.iml" filepath="$PROJECT_DIR$/day811_沉浸式/day811_沉浸式.iml" />
+      <module fileurl="file://$PROJECT_DIR$/day813_retrofit/day813_retrofit.iml" filepath="$PROJECT_DIR$/day813_retrofit/day813_retrofit.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mywebview/mywebview.iml" filepath="$PROJECT_DIR$/mywebview/mywebview.iml" />
+    </modules>
+  </component>
+</project>

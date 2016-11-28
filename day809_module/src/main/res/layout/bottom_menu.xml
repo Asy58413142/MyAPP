@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:orientation="vertical">
+
+    <RadioGroup
+            android:id="@+id/bottom_menu"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dimens_50"
+            android:background="@color/toolBar"
+            android:orientation="horizontal">
+
+        <RadioButton
+                android:id="@+id/bottom_menu_jvhe"
+                style="@style/BottomMenu"
+                android:checked="true"
+                android:drawableTop="@drawable/ic_toys"
+                android:text="@string/string_jh"
+                />
+
+        <RadioButton
+                android:id="@+id/bottom_menu_snow"
+                style="@style/BottomMenu"
+                android:drawableTop="@drawable/ic_ac_unit"
+                android:text="@string/string_snow"
+                />
+
+        <RadioButton
+                android:id="@+id/bottom_menu_monkey"
+                style="@style/BottomMenu"
+                android:drawableTop="@drawable/ic_child_care"
+                android:text="@string/string_monkey"
+                />
+
+
+    </RadioGroup>
+</LinearLayout>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+        >
+    <group android:checkableBehavior="single"
+            >
+        <item
+                android:id="@+id/menu_navigation_view_item0"
+                android:icon="@drawable/ic_child_care"
+                android:title="这是第一个"/>
+    </group>
+    <item android:title="@string/string_back">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                        android:id="@+id/menu_navigation_view_item3"
+                        android:icon="@drawable/ic_beach_access"
+                        android:title="这是第4个"/>
+            </group>
+        </menu>
+    </item>
+</menu>

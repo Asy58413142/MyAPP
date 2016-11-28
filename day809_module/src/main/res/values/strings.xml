@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Day809_Module</string>
+    <string name="string_back">返回</string>
+    <string name="string_close">关闭</string>
+    <string name="string_open">打开</string>
+    <string name="string_jh">聚合</string>
+    <string name="string_monkey">灵猴</string>
+    <string name="string_snow">雪花</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="string_on_found">没有找到该类</string>
+    <string name="string_change_style">改变样式</string>
+    <string name="asy">Asy</string>
+</resources>

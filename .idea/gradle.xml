@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="GradleSettings">
+    <option name="linkedExternalProjectsSettings">
+      <GradleProjectSettings>
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="gradleHome" value="$USER_HOME$/.AndroidStudioPreview2.1" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/day727_viewpager嵌套viewpager的滑动" />
+            <option value="$PROJECT_DIR$/day727_事件分发及listview滑动事件冲突解决" />
+            <option value="$PROJECT_DIR$/day728_事件分发手势识别" />
+            <option value="$PROJECT_DIR$/day729_animation动画" />
+            <option value="$PROJECT_DIR$/day729_animator" />
+            <option value="$PROJECT_DIR$/day802_添加到购物车的动画" />
+            <option value="$PROJECT_DIR$/day803_图片多选选择器" />
+            <option value="$PROJECT_DIR$/day805_抽屉布局总结" />
+            <option value="$PROJECT_DIR$/day809_module" />
+            <option value="$PROJECT_DIR$/day811_沉浸式" />
+            <option value="$PROJECT_DIR$/day813_retrofit" />
+            <option value="$PROJECT_DIR$/library" />
+            <option value="$PROJECT_DIR$/mywebview" />
+          </set>
+        </option>
+        <option name="myModules">
+          <set>
+            <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/day727_viewpager嵌套viewpager的滑动" />
+            <option value="$PROJECT_DIR$/day727_事件分发及listview滑动事件冲突解决" />
+            <option value="$PROJECT_DIR$/day728_事件分发手势识别" />
+            <option value="$PROJECT_DIR$/day729_animation动画" />
+            <option value="$PROJECT_DIR$/day729_animator" />
+            <option value="$PROJECT_DIR$/day802_添加到购物车的动画" />
+            <option value="$PROJECT_DIR$/day803_图片多选选择器" />
+            <option value="$PROJECT_DIR$/day805_抽屉布局总结" />
+            <option value="$PROJECT_DIR$/day809_module" />
+            <option value="$PROJECT_DIR$/day811_沉浸式" />
+            <option value="$PROJECT_DIR$/day813_retrofit" />
+            <option value="$PROJECT_DIR$/library" />
+            <option value="$PROJECT_DIR$/mywebview" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+    </option>
+  </component>
+</project>

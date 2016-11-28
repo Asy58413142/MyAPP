@@ -1,0 +1,7 @@
+<android.support.v7.widget.RecyclerView
+        android:background="@color/pink_100"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/jvhe_listView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+</android.support.v7.widget.RecyclerView>

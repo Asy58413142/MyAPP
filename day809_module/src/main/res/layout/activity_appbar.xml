@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--调配者-->
+<android.support.design.widget.CoordinatorLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fitsSystemWindows="true"
+        android:orientation="vertical">
+
+    <android.support.design.widget.AppBarLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fitsSystemWindows="true"
+            android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+        <!--折叠toolbar-->
+        <android.support.design.widget.CollapsingToolbarLayout
+                android:id="@+id/coolapsing"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fitsSystemWindows="true"
+                app:contentScrim="?attr/colorPrimary"
+                app:expandedTitleMarginEnd="64dp"
+                app:expandedTitleMarginStart="48dp"
+                app:collapsedTitleTextAppearance="@style/TextAppearance.Design.CollapsingToolbar.Expanded"
+                app:layout_scrollFlags="scroll|exitUntilCollapsed">
+
+            <!--
+            layout_collapseMode 设置折叠模式 parallax视觉差 pin 固定在顶部
+            layout_collapseParallaxMultiplier 设置 反应速度 0-1
+            layout_scrollFlags 设置滑动标记，滑动的响应类型
+                1.scroll 跟随滑动
+                2.enterAlways 向上滑动出现
+                3.enterAlwaysCollapsed  滑动到什么位置时出现
+                4.exitUntilCollapsed 滑动到什么位置时消失
+            layout_behavior 调配者的启动行为
+            -->
+            <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fitsSystemWindows="true"
+                    android:orientation="horizontal"
+                    app:layout_collapseMode="parallax"
+                    app:layout_collapseParallaxMultiplier="0.2"
+                    >
+                <ImageView
+                        android:id="@+id/img"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/background1"
+                        />
+
+            </FrameLayout>
+            <android.support.v7.widget.Toolbar
+                    android:id="@+id/appbar_toolbar"
+                    android:layout_width="match_parent"
+                    app:layout_collapseMode="pin"
+                    android:layout_height="?attr/actionBarSize"
+                    app:popupTheme="@style/ThemeOverlay.AppCompat.Light"/>
+
+            <!--   <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:minHeight="0dp"
+                    android:fitsSystemWindows="true"
+                    android:orientation="horizontal"
+                    app:layout_collapseMode="parallax"
+                    app:layout_scrollFlags="scroll|enterAlways|enterAlwaysCollapsed|exitUntilCollapsed">
+
+                <ImageView
+                        android:id="@+id/img"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/background1"
+                        />
+
+            </LinearLayout>
+            <android.support.v7.widget.Toolbar
+                    android:id="@+id/appbar_toolbar"
+                    android:layout_width="match_parent"
+                    android:fitsSystemWindows="true"
+                    app:layout_collapseMode="pin"
+                    android:layout_height="?attr/actionBarSize"
+                    app:layout_scrollFlags="scroll|enterAlways"
+                    app:popupTheme="@style/ThemeOverlay.AppCompat.Light"/>-->
+
+        </android.support.design.widget.CollapsingToolbarLayout>
+    </android.support.design.widget.AppBarLayout>
+
+    <android.support.v4.widget.NestedScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+            <ListView
+                    android:id="@+id/appbar_lv"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:visibility="gone">
+            </ListView>
+
+            <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/dimens_50"
+                    android:text="sadsadasd"/>
+
+            <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/dimens_50"
+                    android:text="sadsadasd"/>
+
+            <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/dimens_50"
+                    android:text="sadsadasd"/>
+
+            <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/dimens_50"
+                    android:text="sadsadasd"/>
+
+            <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/dimens_50"
+                    android:text="sadsadasd"/>
+
+            <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/dimens_50"
+                    android:text="sadsadasd"/>
+
+            <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/dimens_50"
+                    android:text="sadsadasd"/>
+
+            <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/dimens_50"
+                    android:text="sadsadasd"/>
+
+            <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/dimens_50"
+                    android:text="sadsadasd"/>
+
+            <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/dimens_50"
+                    android:text="sadsadasd"/>
+        </LinearLayout>
+    </android.support.v4.widget.NestedScrollView>
+</android.support.design.widget.CoordinatorLayout>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@drawable/header_backgrounf"
+            android:width="60dp"
+          android:height="60dp"
+            />
+    <item android:drawable="@drawable/ic_action_amazon"
+          android:gravity="center"
+            android:width="@dimen/activity_horizontal_margin"
+          android:height="@dimen/activity_horizontal_margin"
+            />
+</layer-list>

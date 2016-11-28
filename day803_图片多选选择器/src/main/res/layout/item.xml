@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content">
+    <ImageView
+            android:id="@+id/item_pic"
+            android:layout_width="match_parent"
+            android:src="@mipmap/ic_launcher"
+            android:scaleType="centerCrop"
+            android:layout_height="100dp"/>
+    <ImageButton
+            android:id="@+id/item_check"
+            android:clickable="false"
+            android:layout_marginTop="3dp"
+            android:layout_marginRight="3dp"
+            android:layout_width="wrap_content"
+            android:src="@drawable/address_default"
+            android:layout_gravity="right"
+            android:background="@null"
+            android:layout_height="wrap_content"/>
+</FrameLayout>

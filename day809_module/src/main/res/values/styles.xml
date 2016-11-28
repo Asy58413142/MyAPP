@@ -1,0 +1,36 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <!--actionbar-->
+        <item name="colorPrimary">#00FF00</item>
+        <!--状态栏-->
+        <item name="colorPrimaryDark">#00F0F0</item>
+        <item name="colorAccent">#000000</item>
+    </style>
+
+    <style name="Theme" parent="AppTheme">
+        <item name="drawerArrowStyle">@style/AppTheme.DrawerArrowToggle</item>
+        <item name="android:windowBackground">@color/toolBar</item>
+        <item name="android:windowTranslucentNavigation" >true</item>
+        <item name="android:windowTranslucentStatus">true</item>
+    </style>
+
+    <style name="AppTheme.DrawerArrowToggle" parent="Base.Widget.AppCompat.DrawerArrowToggle">
+        <item name="color">@android:color/white</item>
+    </style>
+    <style name="PopRecyclerAnim">
+        <item name="android:windowExitAnimation">@anim/pop_recycler_close</item>
+        <item name="android:windowEnterAnimation">@anim/pop_recycler_open</item>
+    </style>
+    <style name="BottomMenu">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_marginTop">@dimen/dimens_2</item>
+        <item name="android:button">@null</item>
+        <item name="android:textColor">@drawable/bottom_menu_text_select</item>
+    </style>
+</resources>

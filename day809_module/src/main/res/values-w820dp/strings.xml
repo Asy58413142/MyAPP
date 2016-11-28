@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="string_back">返回</string>
+    <string name="string_close">关闭</string>
+    <string name="string_jh">聚合</string>
+    <string name="string_monkey">猴子</string>
+    <string name="string_snow">雪花</string>
+    <string name="string_on_found">没有找到该类</string>
+    <string name="string_change_style">改变样式</string>
+    <string name="asy">Asy</string>
+</resources>
