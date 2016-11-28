@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="contentprovider.day.com.cn.day612_indexablelistview.test">
+
+    <uses-sdk android:minSdkVersion="11" android:targetSdkVersion="23" />
+
+    <application>
+        <uses-library android:name="android.test.runner" />
+    </application>
+
+    <instrumentation android:name="android.test.InstrumentationTestRunner"
+                     android:targetPackage="contentprovider.day.com.cn.day612_indexablelistview"
+                     android:handleProfiling="false"
+                     android:functionalTest="false"
+                     android:label="Tests for contentprovider.day.com.cn.day612_indexablelistview"/>
+</manifest>

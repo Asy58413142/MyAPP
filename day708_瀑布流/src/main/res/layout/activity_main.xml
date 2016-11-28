@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context="contentprovider.day.com.cn.day708_.MainActivity">
+
+    <contentprovider.day.com.cn.day708_.RefreshScrollView
+            android:id="@+id/refresh_load"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+        <LinearLayout
+                android:id="@+id/columnContainer"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+        </LinearLayout>
+    </contentprovider.day.com.cn.day708_.RefreshScrollView>
+</RelativeLayout>

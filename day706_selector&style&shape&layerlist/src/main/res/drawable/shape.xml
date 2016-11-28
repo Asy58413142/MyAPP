@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <!--solid 实心填充-->
+    <solid android:color="#0F0"/>
+    <!--渐变  angle 旋转角度  必须是45的倍数-->
+    <gradient
+            android:startColor="#F00"
+            android:centerColor="#0F0"
+            android:endColor="#FF0"
+            android:angle="45"
+            android:type="linear"
+            />
+    <!--描边  dashGap 间距  dashWidth 线的长度-->
+    <stroke
+            android:dashWidth="60dp"
+            android:dashGap="3dp"
+            android:color="#FFF"
+            android:width="12dp"/>
+    <!--圆角 -->
+    <corners android:radius="3dp"/>
+</shape>

@@ -1,0 +1,18 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto"
+      xmlns:tools="http://schemas.android.com/tools"
+      tools:context="contentprovider.day.com.cn.day624_toolbar2.MainActivity">
+   <!-- <item
+            android:id="@+id/action_settings"
+            android:icon="@mipmap/ic_launcher"
+            android:orderInCategory="100"
+            android:title="@string/action_settings"
+            app:actionViewClass="android.widget.ProgressBar"
+            app:showAsAction="always"/>-->
+    <item
+            android:id="@+id/search_view"
+            android:actionViewClass="android.support.v7.widget.SearchView"
+            android:icon="@android:drawable/ic_search_category_default"
+            android:title="@string/action_settings"
+            app:showAsAction="always"/>
+</menu>

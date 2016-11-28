@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context="contentprovider.day.com.cn.day614_fragment.MainActivity">
+
+    <fragment
+            android:id="@+id/fragment"
+            android:name="contentprovider.day.com.cn.day614_fragment.MyFragment"
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:layout_height="0dp"/>
+    <fragment
+            android:id="@+id/fragment_b"
+            android:name="contentprovider.day.com.cn.day614_fragment.BFragment"
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:layout_height="0dp"/>
+</LinearLayout>
